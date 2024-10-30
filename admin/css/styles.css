@@ -1,0 +1,279 @@
+html .content {
+	margin-left: 0;
+}
+html .content.app-content {
+	padding-top: 16px;
+}
+
+.auth-wrapper {
+	margin-top: -130px;
+}
+
+.input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week] {
+	padding: .438rem 1rem;
+    line-height: 1.45;
+    min-height: unset;
+	box-shadow: unset;
+	border: 1px solid #D8D6DE;
+    border-radius: .357rem;
+	color: #6E6B7B;
+}
+
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+	border-color: #f05155;
+    outline: 0;
+    box-shadow: 0 3px 10px 0 rgb(34 41 47 / 10%);
+}
+
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img {
+	color: #f05155;
+	box-shadow: none;
+	outline: 0;
+}
+
+a:active, a:hover {
+    color: #f05155;
+}
+
+.card {
+	margin-top: 0;
+	padding: 0;
+	max-width: unset;
+}
+
+.subsubsub {
+	margin-bottom: 8px;
+}
+
+.subsubsub a {
+	color: #50575e;
+}
+.subsubsub a:hover {
+	color: #f05155;
+}
+.subsubsub a.current {
+	color: #f05155;
+}
+
+.tablenav.top {
+	margin-bottom: 22px;
+}
+
+.button {
+	border-color: #f05155!important;
+	background-color: #f05155!important;
+	color: #FFF!important;
+	font-weight: 500;
+	display: inline-block;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .786rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: .358rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,background 0s,border 0s;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,background 0s,border 0s;
+	vertical-align: middle;
+}
+
+.button:hover {
+	box-shadow: 0 8px 25px -8px #f05155;
+}
+
+.button:active {
+	background-color: #ed3237!important;
+}
+
+.wp-core-ui select {
+	max-width: 100%;
+    color: #6e6b7b;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d8d6de;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.wp-core-ui select:hover {
+	color: #6e6b7b;
+}
+.wp-core-ui select:focus {
+	color: #6e6b7b;
+    background-color: #fff;
+    border-color: #f05155;
+    outline: 0;
+	box-shadow: 0 3px 10px 0 rgb(34 41 47 / 10%);
+}
+.check-column input {
+	border-radius: 0px;
+}
+
+.wp-list-table.orders {
+	border: 1px solid #ebe9f1;
+	color: #6e6b7b;
+}
+
+.wp-list-table.orders tfoot {
+	display: none;
+}
+
+.wp-list-table.orders thead th,
+.wp-list-table.orders thead td {
+	background-color: #f3f2f7;
+	color: #6e6b7b;
+	border-bottom: 2px solid #ebe9f1;
+	border-top: 1px solid #ebe9f1;
+	/* text-transform: uppercase; */
+  font-weight: 500;
+}
+
+.wp-list-table.orders thead th a{
+	color: #6e6b7b;
+}
+
+.tablenav.bottom .bulkactions{
+	display: none;
+}
+.tablenav.bottom{
+	margin-top: 16px;
+}
+
+.tablenav.top .tablenav-pages{
+	display: none;
+}
+
+.wp-list-table.orders .print:hover div{
+	display: flex;
+}
+
+.wp-list-table.orders .print div {
+	position: absolute;
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0.5rem 0;
+	background: #fff;
+	border: 1px solid rgba(34, 41, 47, 0.05);;
+	top: -34px;
+	right: -100px;
+	border-radius: 0.358rem;
+    box-shadow: 0 5px 25px rgb(34 41 47 / 10%);
+}
+
+.wp-list-table.orders .print div:after {
+	width: 0px;
+	height: 0px;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-right: 8px solid #fff;
+	position: absolute;
+	content: "";
+	top: 33px;
+	left: -8px;
+}
+.wp-list-table.orders .print div:before {
+	width: 0px;
+	height: 0px;
+	border-top: 9px solid transparent;
+	border-bottom: 9px solid transparent;
+	border-right: 9px solid rgba(34, 41, 47, 0.05);;
+	position: absolute;
+	content: "";
+	top: 32px;
+	left: -9px;
+}
+
+.wp-list-table.orders span.print {
+	position: relative;
+	padding-right: 20px;
+}
+
+.wp-list-table.orders .print div a {
+	width: 100%;
+	padding: 0.65rem 1.28rem;
+	color: #6e6b7b;
+}
+
+.wp-list-table.orders .print div a:hover {
+	color: #f05155;
+    text-decoration: none;
+    background-color: rgba(240,81,85, 0.12);
+}
+
+.wp-list-table.orders .print div a:first-child {
+	display: none;
+}
+
+input[type=checkbox]:checked::before {
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M14.83 4.89l1.34.94-5.81 8.38H9.02L5.78 9.67l1.34-1.25 2.57 2.4z' fill='%23f05155'/%3E%3C/svg%3E");
+}
+
+
+@media (max-width: 1200px) {
+	.return-order-tab .bs-stepper .bs-stepper-header {
+		flex-direction: column !important;
+		align-items: flex-start !important;
+	}
+
+	.return-order-tab .bs-stepper-header .step-trigger {
+		padding: 0.5rem 0 !important;
+    	flex-direction: row;
+		margin-bottom: 0;
+	}
+
+	.return-order-tab .bs-stepper .bs-stepper-header .line {
+		display: none !important;
+	}
+}
+
+.return-order-tab .bs-stepper-header {
+	border-bottom: 1px solid rgba(34,41,47,.08) !important;
+	border-right: none !important;
+}
+
+.return-order-tab .bs-stepper .bs-stepper-header .line {
+	padding: 0 1.75rem !important;
+	margin-bottom: 1rem;
+}
+
+.return-order-tab .bs-stepper-header .step:first-child .step-trigger {
+    padding-left: 0 !important;
+}
+
+.return-order-tab .step-trigger {
+	padding: 0 !important;
+	margin-bottom: 1rem;
+}
+
+.return-order-tab .bs-stepper-content {
+	padding: 1.5rem 1.5rem !important;
+}
+
+.font-16 {
+	font-size: 16px !important;
+}
+
+.form-control.read-only {
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+}
+.form-control.read-only:focus {
+	box-shadow: none;
+}
+
+#step-5 .card-header {
+	border-bottom: 1px solid rgba(34,41,47,.08);
+}
+
+#step-5 .card-body {
+	padding-top: 1.5rem;
+}
+
+#create-new-merchant-modal .modal-content {
+	height: 680px;
+}
+
